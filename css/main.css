@@ -246,7 +246,7 @@ h4 {
 
 /* Background images for different SCP elements, covering the entire area */
 #scp1, #scp2, #scp3, #scp4, #scp5, #scp6 {
-    background-image: url(/images/filebak.png);
+    background-image: url(filebak.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
