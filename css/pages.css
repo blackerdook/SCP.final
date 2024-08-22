@@ -1,0 +1,28 @@
+/* .info section: occupies 60% width, black background, white text, with padding */
+.info {
+    flex: 0 0 60%;
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+    min-height: 100%;
+    font-size: 10pt;
+}
+
+/* .tcontainer: flexbox layout, wraps content, aligns items at the start */
+.tcontainer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Responsive design: stack .tcontainer content vertically on small screens */
+@media (max-width: 768px) {
+    .tcontainer {
+        flex-direction: column;
+    }
+
+    .banner,
+    .info {
+        flex: 0 0 100%;
+    }
+}
